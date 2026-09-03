@@ -30,23 +30,25 @@
       <p class="subtitulo">Centro Comunitario · Santa Bárbara</p>
     </div>
     <div class="login-form">
-      <h2>Bienvenido</h2>
-      <p class="subtexto">Ingresa con tu número de teléfono y contraseña.</p>
-      <div class="campo">
-        <label>Número de teléfono</label>
-        <input type="tel" id="login-telefono" placeholder="614 000 0000" maxlength="14" inputmode="numeric" autocomplete="off">
-      </div>
-      <div class="campo">
-        <label>Contraseña</label>
-        <div class="campo-pass">
-          <input type="password" id="login-pass" placeholder="••••••••" autocomplete="new-password">
-          <button type="button" class="toggle-pass" data-target="login-pass" title="Mostrar contraseña" aria-label="Mostrar contraseña" onclick="toggleVerPassword('login-pass', this)"><i data-ico="ojo"></i></button>
+      <div class="login-form-inner">
+        <h2>Bienvenido</h2>
+        <p class="subtexto">Ingresa con tu número de teléfono y contraseña.</p>
+        <div class="campo">
+          <label>Número de teléfono</label>
+          <input type="tel" id="login-telefono" placeholder="614 000 0000" maxlength="14" inputmode="numeric" autocomplete="off">
         </div>
-      </div>
-      <button class="btn btn-primario btn-ancho" onclick="hacerLogin()">Iniciar sesión</button>
-      <div class="login-links">
-        <a href="#" onclick="mostrarPantalla('registro');return false;">Registrarme</a>
-        <a href="#" onclick="abrirLoginAdmin();return false;">Panel administrativo</a>
+        <div class="campo">
+          <label>Contraseña</label>
+          <div class="campo-pass">
+            <input type="password" id="login-pass" placeholder="••••••••" autocomplete="new-password">
+            <button type="button" class="toggle-pass" data-target="login-pass" title="Mostrar contraseña" aria-label="Mostrar contraseña" onclick="toggleVerPassword('login-pass', this)"><i data-ico="ojo"></i></button>
+          </div>
+        </div>
+        <button class="btn btn-primario btn-ancho" onclick="hacerLogin()">Iniciar sesión</button>
+        <div class="login-links">
+          <a href="#" onclick="mostrarPantalla('registro');return false;">Registrarme</a>
+          <a href="#" onclick="abrirLoginAdmin();return false;">Panel administrativo</a>
+        </div>
       </div>
     </div>
   </div>
