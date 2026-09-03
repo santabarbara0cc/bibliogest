@@ -1,5 +1,9 @@
 // ══════════════════════════════════════════════════════════════════════════════
-//  CONFIGURACIÓN DE FIREBASE — Proyecto: bibliogest-7895d
+//  CONFIGURACIÓN DE FIREBASE
+//
+//  Estos valores (apiKey, etc.) NO son secretos como una contraseña: es normal
+//  y seguro que aparezcan en el código de una app web pública. La seguridad
+//  real de tus datos se controla con las "Reglas de Firestore" (ver README.md).
 // ══════════════════════════════════════════════════════════════════════════════
 const firebaseConfig = {
   apiKey: "AIzaSyD1FuzhqbOlj9dIu2Hm2YHRlf_B3rX_xE8",
